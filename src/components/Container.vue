@@ -1,13 +1,19 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 import Formulario from './Formulario.vue';
 
-const count = ref(0)
 </script>
 
 <template>
-  <div class="flex flex-col p-8 h-auto w-2/3">
-    <h1 class="text-2xl ml-8 mb-2">GitHub Search</h1>
+  <div class="
+    max-sm:w-screen
+    sm:w-screen sm:flex sm:flex-col sm:items-center
+    md:flex md:flex-col md:items-center md:w-screen
+  ">
+    <h1 class="
+    max-sm:text-center max-sm:mb-1 max-sm:text-2xl
+    sm:text-2xl
+    md:text-4xl 
+    ">GitHub Search</h1>
     <Formulario />
   </div>
 </template>
